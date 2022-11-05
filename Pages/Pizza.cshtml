@@ -1,0 +1,75 @@
+﻿@page
+@model RazorPizzeria.Pages.Checkout.PizzaModel
+@{
+}
+
+<!--
+<a class="nav-link text-dark" asp-area="" asp-page="Forms/CustomPizza">Custom Pizza</a>
+<a class="nav-link text-dark" asp-area="" asp-page="Checkout/Checkout">Checkout</a>
+-->
+
+<div class="row text-center p-5">
+    <h2>
+        Our Great Selection Of Pizzas
+    </h2>
+    <p class="font-weight-bold">
+        Choose one, or try our Pizza Builder! Then Order and Done! <br />
+        No need to give any of your details! <br />
+        We already know everything!
+    </p>
+</div>
+<div class="row" style="background-color: #726d6d">
+    <div class="col-4">
+        <img class="w-100" src="~/images/Create.png" alt="" />
+    </div>
+    <div class="col-6 justify-content-center text-white d-flex flex-column">
+        <h3>Create your own Pizza!</h3>
+        <p>Make your own Pizza with our Pizza Creator!</p>
+        <a asp-page="/Forms/CustomPizza">
+            <div>
+                <button class="btn btn-primary">
+                    Try now!
+                </button>
+            </div>
+        </a>
+    </div>
+</div>
+<!--
+    <div class="container w-100">
+    <div class="row">
+        <div class="col-12 mb-5 mt-5">
+            <div class="row">
+                <div class="col-4 my-2">
+                    <img class="w-100" src="~/images/Bolognese.png" alt="" />
+                </div>
+                 <div class="col-4 my-2">
+                    <img class="w-100" src="~/images/Bolognese.png" alt="" />
+                </div>
+                <div class="col-4 my-2">
+                    <img class="w-100" src="~/images/Bolognese.png" alt="" />
+                </div>
+                <div class="col-4 my-2">
+                    <img class="w-100" src="~/images/Bolognese.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<div class="row d-flex my-4" style="flex-wrap: wrap;">
+    <div class="item col-4 my-2" style="">
+        <img class="w-100" src="~/images/Bolognese.png" alt="" />
+    </div>
+    <div class="item col-4 my-2" style="">
+        <img class="w-100" src="~/images/Bolognese.png" alt="" />
+    </div>
+    <div class="item col-4 my-2" style="">
+        <img class="w-100" src="~/images/Bolognese.png" alt="" />
+    </div>
+    <div class="item col-4 my-2" style="">
+        <img class="w-100" src="~/images/Bolognese.png" alt="" />
+    </div>
+    <div class="item col-4 my-2" style="">
+        <img class="w-100" src="~/images/Bolognese.png" alt="" />
+    </div>
+</div>
